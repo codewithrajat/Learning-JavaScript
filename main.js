@@ -1,4 +1,6 @@
-const name = require
+import { printName } from './app';
 function mainFunction(){
-    console.log()
+    var name = printName;
+    console.log(name)
 }
+mainFunction();
